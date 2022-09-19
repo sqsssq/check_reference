@@ -1,6 +1,6 @@
 <!--
  * @Author: Qing Shi
- * @LastEditTime: 2022-09-18 23:41:37
+ * @LastEditTime: 2022-09-19 13:40:14
 -->
 <!-- bib input -->
 <template>
@@ -23,7 +23,7 @@
         >
       </el-col>
       <el-col :span="12">
-        <h1>Repeat Reference</h1>
+        <h1>Duplicated Article Title</h1>
         <!-- <div v-for="(d, i) in repeatReference" :key="i">
                     {{'[' + (i + 1) + '] ' + d }}
                 </div> -->
