@@ -22,9 +22,9 @@ import HelloWorld from "./components/HelloWorld.vue";
       </nav>
     </div>
   </header> -->
-<!-- <div id="app" style="height: 100vh - 20px;"> -->
+  <!-- <div id="app" style="height: 100vh - 20px;"> -->
   <RouterView />
-<!-- </div> -->
+  <!-- </div> -->
 </template>
 
 <style>
@@ -90,6 +90,6 @@ nav a:first-of-type {
   }
 } */
 .el-table .cell {
-    word-break: keep-all;
+  word-break: keep-all;
 }
 </style>

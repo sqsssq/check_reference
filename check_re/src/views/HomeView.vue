@@ -9,7 +9,7 @@ import TheWelcome from "../components/TheWelcome.vue";
 </template> -->
 <!-- Home View -->
 <template>
-  <div class="common-layout" style="width: 100%;">
+  <div class="common-layout" style="width: 100%">
     <el-container style="height: 100vh">
       <el-header style="">
         <BibNav />
@@ -17,8 +17,8 @@ import TheWelcome from "../components/TheWelcome.vue";
       <el-container>
         <!-- <el-aside width="200px">Aside</el-aside> -->
         <el-container>
-          <el-main style=" height: calc(100% - 120px);">
-            <el-row :gutter="20" style="height: 100%;">
+          <el-main style="height: calc(100% - 120px)">
+            <el-row :gutter="20" style="height: 100%">
               <el-col :span="24">
                 <BibInput />
               </el-col>
@@ -27,9 +27,15 @@ import TheWelcome from "../components/TheWelcome.vue";
             </el-row>
           </el-main>
           <el-footer
-            style="height: 30px; background-color: #ffffff; color: black; line-height: 30px; text-align:center">
+            style="
+              height: 30px;
+              background-color: #ffffff;
+              color: black;
+              line-height: 30px;
+              text-align: center;
+            "
+          >
             Copyright ©2022 Qing Shi. ALL Rights Reserved
-
           </el-footer>
         </el-container>
       </el-container>
@@ -41,10 +47,9 @@ import TheWelcome from "../components/TheWelcome.vue";
 import BibInput from "../components/bibInput.vue";
 import BibNav from "../components/bibNav.vue";
 export default {
-  name: 'home_view',
-  data () {
-    return {
-    };
+  name: "home_view",
+  data() {
+    return {};
   },
 
   components: { BibInput, BibNav },
@@ -53,9 +58,8 @@ export default {
 
   // mounted: {},
 
-  methods: {}
-}
-
+  methods: {},
+};
 </script>
 <style scoped>
 .el-row {
